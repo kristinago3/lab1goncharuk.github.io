@@ -1,0 +1,85 @@
+﻿<!doctype html>
+<html>
+<head>
+<title>Гончарук Крістіни Юріївни
+</title>
+<meta charset="UTF-8">
+<link rel=stylesheet type="text/css" href="style.css">
+
+<script language=javascript>
+  <!--
+  function Calculate()
+  {
+    var a = eval( document.forms.equ.a.value);
+    var b = eval( document.forms.equ.b.value);
+    var c = eval( document.forms.equ.c.value);
+    var d = b * b - 4 * a * c;
+    document.forms.equ.dis.value = d;
+    if( d < 0)
+    {
+      var str = "";
+      str += ( - b ) / ( 2 * a);
+      str += " + i * ";
+      str += Math.sqrt( - d ) / ( 2 * a);
+      document.forms.equ.x1.value = str;
+       
+      str = "";
+      str += ( - b ) / ( 2 * a);
+      str += " - i * ";
+      str += Math.sqrt( - d ) / ( 2 * a);
+      document.forms.equ.x2.value = str;
+    }
+    else
+    {
+      document.forms.equ.x1.value = ( - b + Math.sqrt( d ) ) / ( 2 * a);
+      document.forms.equ.x2.value = ( - b - Math.sqrt( d ) ) / ( 2 * a);
+    }
+  }
+  //-->
+  </script>
+</head>
+<body>
+
+<div id="b1">
+
+<div id="b2">
+<img src="kitten_cat_20-320.png" width="120" height="150">
+<h1>  Cайт с лабораторными работами <h1>
+<h2> Гончарук Кристины Юриевны <h2>
+</div>
+
+<div id="b3">
+
+<p><a href=" Лабораторна робота№2.html ">Главная </a></p>
+<p><a href="2.html ">Лабораторная работа №2 </a></p>
+<p><a href=" 3.html ">Лабораторная работа №3 </a></p>
+<p><a href=" 4.html ">Модуль </a></p>
+<p><a href=" 5.html ">Лабораторная работа№4 </a></p>
+</div>
+
+<div id="b4">
+<table width=740 align=center>
+<tr><td><center>
+<h2>
+Решение квадратного уравнения.</h2>
+ 
+<form name="equ">
+ 
+<input type="text" name="a" value="" size=10> * x<sup>2</sup> +
+<input type="text" name="b" value="" size=10> * x + 
+<input type="text" name="c" value="" size=10> = 0
+<p><input type="button" value="Решить" onclick=Calculate()>
+<p>Результат вычисления:
+<p>
+x<sub>1</sub> = <input type="text" name="x1" value="" size=40>
+x<sub>2</sub> = <input type="text" name="x2" value="" size=40>
+Дискриминант уравнения:
+<input type="text" name="dis" value="" size=20>
+</form></center>
+
+
+</div>
+</html>
+
+
+
