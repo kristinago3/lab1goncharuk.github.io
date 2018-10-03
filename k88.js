@@ -13,9 +13,9 @@ return elements; }
 function f1()
 {       x=parseFloat($('tx1').value);
 	N=parseInt($('tx2').value);
- S=0;
-p1=1;
-p2=1;
+var S=0;
+var p1=1;
+var p2=1;
 for(i=1;i<=N;i++)
 {p1=p1*(2*i+1);
 p2=p2*(-1);
