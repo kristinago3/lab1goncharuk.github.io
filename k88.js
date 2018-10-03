@@ -13,7 +13,7 @@ return elements; }
 function f1()
 {       x=parseFloat($('tx1').value);
 	N=parseInt($('tx2').value);
-var S=0;
+ S=0;
 p1=1;
 p2=1;
 for(i=1;i<=N;i++)
