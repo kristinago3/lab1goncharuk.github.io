@@ -22,5 +22,5 @@ p2=p2*(-1);
  S=S+p1+p2;
 //S=S+((Math.pow(x,p1)*p2*Math.pow(p2,i))/p1);
 }
-$('tx3').value=''+S;
+$('tx3').value='+S';
 }
