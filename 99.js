@@ -36,6 +36,6 @@ function f2()
 		for(var j=1; j<= i; j++)
 			result=result+i;
 	}
-	$('tx4').value=result;
+	$('tx3').value=result;
 }
 
