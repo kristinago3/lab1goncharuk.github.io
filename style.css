@@ -1,12 +1,7 @@
 style.css
 div{ color:Thistle; background-color:cc99ff; border:3px solid DarkMagenta; margin:5px; width:100%}
-
-
 #b1{ color:Thistle;border:3px solid ;background-image:url(58fe599bc3618843468b47c1.jpg);border:3px solid pink}
-#b2{background-color:DarkMagenta ;
-color: Thistle;text-align:center;float: left;border:3px solid DarkMagenta;width:1250px}
-
+#b2{background-color:DarkMagenta;color: Thistle;text-align:center;float:left;border:3px solid DarkMagenta;width:1250px}
 #b3{ color:Thistle;  clear:both;  border:3px solid DarkMagenta;  background-color:Thistle;  padding:5px;  width:22%;float:left}
-
 #b4{border:3px solid ;background-color:Thistle;padding:5px;width:70%;height:2000px;float:left;border:3px solid DarkMagenta;color:DarkMagenta;text-align:center}
 #b5{background-color:yellow;clear:both}
