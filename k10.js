@@ -17,7 +17,7 @@ function f1()
  while(i<=8785856)
   i++;
  {
-            fact=fact*i;
+            fact.Math=fact.Math*i;
         }
  document.getElementById('tx2').value=i;
 }
