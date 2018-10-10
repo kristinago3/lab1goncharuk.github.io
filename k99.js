@@ -1,4 +1,4 @@
-﻿function $() 
+/*﻿function $() 
 { var elements = new Array(); 
 for (var i = 0; i < arguments.length; i++) 
 { var element = arguments[i]; 
@@ -9,11 +9,11 @@ return element;
 elements.push(element); 
 } 
 return elements; }  
-
+*/
 
 function f1()
-{N=parseFloat($('tt1').value);
- K=parseFloat($('tt2').value);
+{N=parseFloat(document.getElementById('tt1').value);
+ K=parseFloat(document.getElementById('tt2').value);
  S=1;
  
                      for(i=2;i<=N;i++) 
@@ -21,15 +21,15 @@ function f1()
                            for(j=2;j<=K;j++)
                        {a=a*i;
                         S=S+a;}
-		  	$('tt3').value=S;
+		  	document.getElementById('tt3').value=S;
                                 
 		             }
 
 }
 function f2()
 {
-	A=parseFloat($('tx1').value);
-	B=parseFloat($('tx2').value);
+	A=parseFloat(document.getElementById('tx1').value);
+	B=parseFloat(document.getElementById('tx2').value);
 	result='';
 	for(var i=A; i<=B; i++)
 	{
