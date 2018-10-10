@@ -13,10 +13,11 @@ return elements; }
 
 function f1()
 {N=parseInt(document.getElementById('tx1').value);
- i=N-2;
- while(i>=1)
- {N*=i;
-   i-=2;
+
+ while(N>0)
+ {P=N;
+  N=N-2;
+  P=P*N;
  }
- document.getElementById('tx2').value=factorial(i);
+ document.getElementById('tx2').value=P;
 }
