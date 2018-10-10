@@ -13,11 +13,10 @@ return elements; }
 
 function f1()
 {N=parseInt(document.getElementById('tx1').value);
- i=1;
- while(i<=8785856)
-  i++;
- {
-            fact.Math=fact.Math*i;
-        }
- document.getElementById('tx2').value=i;
+ i=N-2;
+ while(i>=1)
+ {N*=i;
+   i-=2;
+ }
+ document.getElementById('tx2').value=factorial2(i);
 }
