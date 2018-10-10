@@ -1,4 +1,4 @@
-function $() 
+/*function $() 
 { var elements = new Array(); 
 for (var i = 0; i < arguments.length; i++) 
 { var element = arguments[i]; 
@@ -9,11 +9,11 @@ return element;
 elements.push(element); 
 } 
 return elements; } 
-
+*/
 
 function f1()
-{x=parseFloat($('tx1').value);
-N=parseInt($('tx2').value);
+{x=parseFloat(document.getElementById('tx1').value);
+N=parseInt(document.getElementById('tx2').value);
  S=1;
  p1=1;
  p2=1;
@@ -23,5 +23,5 @@ p2=p2*(-1);
 S=S+p1+p2;
 //S=S+((Math.pow(x,p1)*p2*Math.pow(p2,i))/p1);
 }
-$('tx3').value=''+S;
+document.getElementById('tx3').value=''+S;
 }
