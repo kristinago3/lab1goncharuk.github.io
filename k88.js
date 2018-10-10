@@ -1,4 +1,4 @@
-﻿function$()
+function $() 
 { var elements = new Array(); 
 for (var i = 0; i < arguments.length; i++) 
 { var element = arguments[i]; 
@@ -8,7 +8,8 @@ if (arguments.length == 1)
 return element; 
 elements.push(element); 
 } 
-return elements; }
+return elements; } 
+
 
 function f1()
 {x=parseFloat($('tx1').value);
