@@ -18,5 +18,5 @@ function f1()
  {N*=i;
    i-=2;
  }
- document.getElementById('tx2').value=factorial2(i);
+ document.getElementById('tx2').value=factorial(i);
 }
