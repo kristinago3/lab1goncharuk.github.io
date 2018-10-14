@@ -27,7 +27,7 @@ fac = 1 ;
 i = 0 ;
  while(N>i)
  {i += 1
-     fac = fac * i }
+     fac = fac*fac * i }
  document.getElementById('tx3').value=fac}
 
  
