@@ -11,7 +11,7 @@ elements.push(element);
 return elements; } 
 */
 
-function f1()
+/*function f1()
 {N=parseInt(document.getElementById('tx1').value);
 
  while(N>0)
@@ -20,4 +20,15 @@ function f1()
   P=P*N;
  }
  document.getElementById('tx3').value=P;
-}
+}*/
+function f1()
+{N=parseInt(document.getElementById('tx1').value);
+fac = 1 ;
+i = 0 ;
+ while(N>i)
+ {i += 1
+     fac = fac * i }
+ document.getElementById('tx3').value=fac}
+
+ 
+ 
