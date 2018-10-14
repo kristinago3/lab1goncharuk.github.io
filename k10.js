@@ -19,5 +19,5 @@ function f1()
   N=N-2;
   P=P*N;
  }
- document.getElementById('tx2').value=P;
+ document.getElementById('tx3').value=P;
 }
