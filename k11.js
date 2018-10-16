@@ -11,16 +11,41 @@ elements.push(element);
 return elements; } 
 */
 
-function f1()
-{x=parseFloat(document.getElementById('tx1').value);
-N=parseInt(document.getElementById('tx2').value);
- S=x;
- p1=1;
- p2=1;
-for(i=1;i<=N;i++)
-{p1=p1*(2*i+1);
-p2=p2*(-1);
-S=S+((Math.pow(x,p1)*p2*Math.pow(p2,i))/p1);
+var today = new Date();
+function f(x)
+{
+document.getElementById("tx1").value=document.getElementById("tx1").value+x;
 }
-document.getElementById('tx3').value=''+S;
+
+
+function f3()
+{
+('tx4').value=today.getDay();
+b=parseFloat(document.getElementById('tx4').value);
+switch(a)
+{
+case 1:
+document.getElementById('tx4').value='Понедельник'
+break;
+case 2:
+document.getElementById('tx4').value='Вторник'
+break;
+case 3:
+document.getElementById('tx4').value='Среда'
+break;
+case 4:
+document.getElementById('tx4').value='Четверг'
+break;
+case 5:
+document.getElementById('tx4').value='Пятница'
+break;
+case 6:
+document.getElementById('tx4').value='Суббота'
+break;
+case 0:
+document.getElementById('tx4').value='Воскресенье'
+break;
 }
+}
+
+
