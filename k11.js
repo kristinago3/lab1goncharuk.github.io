@@ -18,32 +18,32 @@ document.getElementById("tx1").value=document.getElementById("tx1").value+x;
 }
 
 
-function f3()
+function f1()
 {
-('tx4').value=today.getDay();
-b=parseFloat(document.getElementById('tx4').value);
+('tx').value=today.getDay();
+b=parseFloat(document.getElementById('tx').value);
 switch(a)
 {
 case 1:
-document.getElementById('tx4').value='Понедельник'
+document.getElementById('tx').value='Понедельник'
 break;
 case 2:
-document.getElementById('tx4').value='Вторник'
+document.getElementById('tx').value='Вторник'
 break;
 case 3:
-document.getElementById('tx4').value='Среда'
+document.getElementById('tx').value='Среда'
 break;
 case 4:
-document.getElementById('tx4').value='Четверг'
+document.getElementById('tx').value='Четверг'
 break;
 case 5:
-document.getElementById('tx4').value='Пятница'
+document.getElementById('tx').value='Пятница'
 break;
 case 6:
-document.getElementById('tx4').value='Суббота'
+document.getElementById('tx').value='Суббота'
 break;
 case 0:
-document.getElementById('tx4').value='Воскресенье'
+document.getElementById('tx').value='Воскресенье'
 break;
 }
 }
