@@ -36,6 +36,20 @@ function result3()
  t=today.getTime()-birthday.getTime();
  document.getElementById('tx4'=parseInt(t/1000/60/60/24));
 }
+function f4()
+{время1=parseFloat(document.getElementById('tx3').value);
+время2=parseFloat(document.getElementById('tx4').value);
+
+if(время1>время2)
+{document.getElementById('tx5').value='время1='+время1;
+}
+
+else 
+{document.getElementById('tx5').value='время2='+время2;
+
+}
+
+}
 
 function f1()
 {
