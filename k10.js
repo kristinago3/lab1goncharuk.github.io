@@ -24,10 +24,10 @@ return elements; }
 function f1()
 {N=parseInt(document.getElementById('tx1').value);
 fac = 1 ;
-i = 0 ;
- while(N>i)
- {i += 1
-     fac = fac*fac * i }
+ while((N>=2)||())
+ {fac=fac*N
+  N=N-2
+  }
  document.getElementById('tx3').value=fac}
 
  
