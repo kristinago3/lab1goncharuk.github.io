@@ -17,6 +17,25 @@ function f(x)
 document.getElementById("tx1").value=document.getElementById("tx1").value+x;
 }
 
+function f2()
+{x=parseInt(document.getElementById("tx1").value);
+  today.setTime(x)
+}
+function result2()
+{var today=newDate();
+ t=today.getTime()-birthday.getTime();
+ document.getElementById('tx3'=parseInt(t/1000/60/60/24));
+}
+ 
+function f3()
+{x=parseInt(document.getElementById("tx2").value);
+  today.setTime(x)
+}
+function result3()
+{var today=newDate();
+ t=today.getTime()-birthday.getTime();
+ document.getElementById('tx4'=parseInt(t/1000/60/60/24));
+}
 
 function f1()
 {
