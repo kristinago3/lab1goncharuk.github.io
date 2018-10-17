@@ -18,20 +18,12 @@ document.getElementById("tx1").value=document.getElementById("tx1").value+x;
 }
 
 function f2()
-{x=parseInt(document.getElementById("tx1").value);
-  today.getTime(x)
-}
-function result2()
 {var today=newDate();
  t=today.getTime()-birthday.getTime();
  document.getElementById('tx3'=parseInt(t/1000/60/60/24));
 }
  
 function f3()
-{x=parseInt(document.getElementById("tx2").value);
-  today.getTime(x)
-}
-function result3()
 {var today=newDate();
  t=today.getTime()-birthday.getTime();
  document.getElementById('tx4'=parseInt(t/1000/60/60/24));
@@ -50,20 +42,14 @@ else
 }
 
 }
+
 function f5()
-{x=parseInt(document.getElementById("tx1").value);
-  today.getDay(x)
-}
-function result5()
 {var today=newDate();
  t=today.getTime()-birthday.getDay();
  document.getElementById('tx7'=parseInt(t));
 }
+
 function f6()
-{x=parseInt(document.getElementById("tx1").value);
-  today.getDay(x)
-}
-function result6()
 {var today=newDate();
  t=today.getTime()-birthday.getDay();
  document.getElementById('tx8'=parseInt(t));
