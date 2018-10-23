@@ -25,10 +25,13 @@ document.getElementById('tx3').value=parseInt(t/1000/60/60/24);
  
 }
  
-/*function f3()
-{
+function f3()
+
+{var newyear = new Date(2018,11,31);
+t=newyear.getTime()-today.getTime();
+document.getElementById('tx3').value=parseInt(t/1000/60/60/24);
 }
-function f4()
+/*function f4()
 {время1=parseFloat(document.getElementById('tx3').value);
 время2=parseFloat(document.getElementById('tx4').value);
 
