@@ -15,23 +15,18 @@ var today = new Date();
 function f(x)
 {
 document.getElementById("tx1").value=document.getElementById("tx1").value+x;
+ document.getElementById("tx2").value=document.getElementById("tx2").value+y;
 }
 
 function f2()
-{x=parseInt(document.getElementById('tx1').value);
- y=parseInt(document.getElementById('tx2').value);
-today.setHours(x);
- ttoday.setHours(y);
-document.getElementById('tx3').value=today-ttoday;
-document.getElementById('tx1').value='';
-document.getElementById('tx2').value='';
+{var newyear = new Date(2018,11,31);
+t=newyear.getTime()-today.getTime();
+document.getElementById('tx3').value=parseInt(t/1000/60/60/24);
  
 }
  
 /*function f3()
-{var today=newDate();
- t=today.getTime()-birthday.getTime();
- document.getElementById('tx4'=parseInt(t/1000/60/60/24));
+{
 }
 function f4()
 {время1=parseFloat(document.getElementById('tx3').value);
