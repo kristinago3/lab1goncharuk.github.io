@@ -88,5 +88,5 @@ document.getElementById('tx').value='Воскресенье'
 break;
 }
 }
-
+*/
 
