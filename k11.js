@@ -18,12 +18,17 @@ document.getElementById("tx1").value=document.getElementById("tx1").value+x;
 }
 
 function f2()
-{var today=newDate();
- t=today.getTime()-birthday.getTime();
- document.getElementById('tx3'=parseInt(t/1000/60/60/24));
+{x=parseInt(document.getElementById('tx1').value);
+ y=parseInt(document.getElementById('tx2').value);
+today.setHours(x);
+ ttoday.setHours(y);
+document.getElementById('tx3').value=today-ttoday;
+document.getElementById('tx1').value='';
+document.getElementById('tx2').value='';
+ 
 }
  
-function f3()
+/*function f3()
 {var today=newDate();
  t=today.getTime()-birthday.getTime();
  document.getElementById('tx4'=parseInt(t/1000/60/60/24));
