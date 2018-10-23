@@ -19,17 +19,21 @@ document.getElementById("tx1").value=document.getElementById("tx1").value+x;
 }
 
 function f2()
-{var newyear = new Date(2018,11,31);
-t=newyear.getTime()-today.getTime();
-document.getElementById('tx3').value=parseInt(t/1000/60/60/24);
- 
+{
+x=parseInt( document.getElementById('tx1').value);
+today.setTime(x);
+ document.getElementById('tx3').value=today;
+ document.getElementById('tx1').value='';
+
 }
  
 function f3()
 
-{var newyear = new Date(2018,11,31);
-t=newyear.getTime()-today.getTime();
-document.getElementById('tx3').value=parseInt(t/1000/60/60/24);
+{ y=parseInt( document.getElementById('tx2').value);
+today.setTime(y);
+ document.getElementById('tx4').value=today;
+ document.getElementById('tx2').value='';
+
 }
 /*function f4()
 {время1=parseFloat(document.getElementById('tx3').value);
