@@ -35,7 +35,7 @@ today.setTime(y);
  document.getElementById('tx2').value='';
 
 }
-/*function f4()
+function f4()
 {время1=parseFloat(document.getElementById('tx3').value);
 время2=parseFloat(document.getElementById('tx4').value);
 
@@ -90,5 +90,4 @@ document.getElementById('tx').value='Воскресенье'
 break;
 }
 }
-*/
 
