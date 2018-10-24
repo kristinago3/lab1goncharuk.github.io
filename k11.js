@@ -52,13 +52,13 @@ else
 function f5()
 {var today=newDate();
  t=today.getTime()-birthday.getDay();
- document.getElementById('tx7'=parseInt(t));
+ document.getElementById('tx7').value=parseInt(t);
 }
 
 function f6()
 {var today=newDate();
  t=today.getTime()-birthday.getDay();
- document.getElementById('tx8'=parseInt(t));
+document.getElementById('tx8').value=parseInt(t);
 }
 function f1()
 {
