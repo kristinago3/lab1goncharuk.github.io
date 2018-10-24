@@ -13,18 +13,14 @@ return elements; }
 
 var today = new Date();
 function f(x)
-{
-document.getElementById("tx1").value=document.getElementById("tx1").value+x;
- document.getElementById("tx2").value=document.getElementById("tx2").value+x;
-}
+{document.getElementById("tx1").value=document.getElementById("tx1").value+x;
+ document.getElementById("tx2").value=document.getElementById("tx2").value+x;}
 
 function f2()
-{
-x=parseInt( document.getElementById('tx1').value);
+{x=parseInt( document.getElementById('tx1').value);
 today.setTime(x);
  document.getElementById('tx3').value=today;
  document.getElementById('tx1').value='';
-
 }
  
 function f3()
