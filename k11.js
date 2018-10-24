@@ -53,7 +53,7 @@ else
 function f5()
 {var today=newDate();
  t=today.getTime()-birthday.getDay();
- document.getElementById('tx7'=parseInt(t));
+ document.getElementById('tx6'=parseInt(t));
 }
 
 function f6()
