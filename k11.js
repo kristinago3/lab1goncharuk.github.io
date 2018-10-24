@@ -47,7 +47,6 @@ else
 {document.getElementById('tx5').value='время2='+время2;
 
 }
-
 }
 
 function f5()
