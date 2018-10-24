@@ -15,7 +15,7 @@ var today = new Date();
 function f(x)
 {
 document.getElementById("tx1").value=document.getElementById("tx1").value+x;
- document.getElementById("tx2").value=document.getElementById("tx2").value+y;
+ document.getElementById("tx2").value=document.getElementById("tx2").value+x;
 }
 
 function f2()
