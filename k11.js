@@ -44,14 +44,12 @@ else
 
 }
 }
-
 function f5()
 {x=parseInt( document.getElementById('tx1').value);
 today.setDay(x);
  document.getElementById('tx7').value=today;
  document.getElementById('tx1').value='';
 }
-
 function f6()
 {x=parseInt( document.getElementById('tx2').value);
 today.setDay(x);
