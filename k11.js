@@ -46,15 +46,17 @@ else
 }
 
 function f5()
-{var today=new Date();
- t=today.getTime()-birthday.getDay();
- document.getElementById('tx7').value=parseInt(t);
+{x=parseInt( document.getElementById('tx1').value);
+today.setDay(x);
+ document.getElementById('tx7').value=today;
+ document.getElementById('tx1').value='';
 }
 
 function f6()
-{var today=new Date();
- t=today.getTime()-birthday.getDay();
-document.getElementById('tx8').value=parseInt(t);
+{x=parseInt( document.getElementById('tx2').value);
+today.setDay(x);
+ document.getElementById('tx8').value=today;
+ document.getElementById('tx2').value='';
 }
 function f1()
 {('tx').value=today.getDay();
