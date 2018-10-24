@@ -53,7 +53,7 @@ else
 function f5()
 {var today=newDate();
  t=today.getTime()-birthday.getDay();
- document.getElementById('tx6'=parseInt(t));
+ document.getElementById('tx7'=parseInt(t));
 }
 
 function f6()
@@ -68,25 +68,25 @@ b=parseFloat(document.getElementById('tx').value);
 switch(a)
 {
 case 1:
-document.getElementById('tx7').value='Понедельник'
+document.getElementById('tx').value='Понедельник'
 break;
 case 2:
-document.getElementById('tx7').value='Вторник'
+document.getElementById('tx').value='Вторник'
 break;
 case 3:
-document.getElementById('tx7').value='Среда'
+document.getElementById('tx').value='Среда'
 break;
 case 4:
-document.getElementById('tx7').value='Четверг'
+document.getElementById('tx').value='Четверг'
 break;
 case 5:
-document.getElementById('tx7').value='Пятница'
+document.getElementById('tx').value='Пятница'
 break;
 case 6:
-document.getElementById('tx7').value='Суббота'
+document.getElementById('tx').value='Суббота'
 break;
 case 0:
-document.getElementById('tx7').value='Воскресенье'
+document.getElementById('tx').value='Воскресенье'
 break;
 }
 }
