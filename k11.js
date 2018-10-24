@@ -46,19 +46,18 @@ else
 }
 
 function f5()
-{var today=newDate();
+{var today=new Date();
  t=today.getTime()-birthday.getDay();
  document.getElementById('tx7').value=parseInt(t);
 }
 
 function f6()
-{var today=newDate();
+{var today=new Date();
  t=today.getTime()-birthday.getDay();
 document.getElementById('tx8').value=parseInt(t);
 }
 function f1()
-{
-('tx').value=today.getDay();
+{('tx').value=today.getDay();
 b=parseFloat(document.getElementById('tx').value);
 switch(a)
 {
