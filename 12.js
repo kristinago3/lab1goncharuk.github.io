@@ -11,8 +11,8 @@ elements.push(element);
 return elements; } 
 */
 
-function f(str) 
-{var str=parseFloat(document.getElementById('In').value);
+function f(x) 
+{var x=parseFloat(document.getElementById('In').value);
  var a = '1234567890';
  fff=1;
    for (var i = 0; i < str.length; i++)
