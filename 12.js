@@ -11,7 +11,7 @@ elements.push(element);
 return elements; } 
 */
 
-function isEmpty(str) 
+function f(str) 
 {
    for (var i = 0; i < str.length; i++)
       if (" " != str.charAt(i))
