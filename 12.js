@@ -12,16 +12,11 @@ return elements; }
 */
 
 
-function f2()
-	{
-		var x = parseInt(document.getElementById('In').value);	
-		if(0<x<120 )
-			{
-      		document.getElementById('Result').value='Okay';
-   			}
-   		else
-    		{
-   			document.getElementById('Result').value='Fail';
-    		}
-		
-	}
+
+function isEmpty(str) 
+{
+   for (var i = 0; i < str.length; i++;i<120)
+      if (" " != str.charAt(i))
+          return Fail;
+      return Okay;
+}
