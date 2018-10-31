@@ -13,13 +13,18 @@ return elements; }
 
 function f(str) 
 {var str=parseFloat(document.getElementById('In').value);
- 
+ var a = '1234567890';
+ fff=1;
    for (var i = 0; i < str.length; i++)
- 
-      if (" " != str.charAt(i))
-      { document.getElementById('Result').value='Fail'   }
+   {
+      x=str.charAt(i);
+    if(x.indexOff(a)<0)
+     fff=0
+   }
+ if(fff)
+      { document.getElementById('Result').value='Okay' ;  }
    else
-      { document.getElementById('Result').value='Okay'   }
+      { document.getElementById('Result').value='Fail';   }
  
 
 }
