@@ -12,16 +12,16 @@ return elements; }
 */
 
 
-function f2(x)
+function f2()
 	{
-		var a = Date.parse();	
-		if( )
+		var x = parseInt(document.getElementById('In').value);	
+		if(0<x<120 )
 			{
-      		 return false;
+      		document.getElementById('Result').value='Okay';
    			}
    		else
     		{
-   			 return true;
+   			document.getElementById('Result').value='Fail';
     		}
 		
 	}
