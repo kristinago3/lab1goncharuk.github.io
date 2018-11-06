@@ -44,21 +44,11 @@ else
 
 }
 }
-function f5()
-{x=parseInt( document.getElementById('tx1').value);
-today.getDay(x);
- document.getElementById('tx7').value=today;
- document.getElementById('tx1').value='';
-}
-function f6()
-{x=parseInt( document.getElementById('tx2').value);
-today.getDay(x);
- document.getElementById('tx8').value=today;
- document.getElementById('tx2').value='';
-}
+
+
 function f1()
-{('tx').value=today.getDay();
-b=parseFloat(document.getElementById('tx').value);
+{document.getElementById('tx7').value=today.getDay();
+a=parseFloat(document.getElementById('tx1').value);
 switch(a)
 {
 case 1:
@@ -84,4 +74,3 @@ document.getElementById('tx').value='Воскресенье'
 break;
 }
 }
-
