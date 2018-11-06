@@ -52,25 +52,25 @@ a=parseFloat(document.getElementById('tx1').value);
 switch(a)
 {
 case 1:
-document.getElementById('tx').value='Понедельник'
+document.getElementById('tx7').value='Понедельник'
 break;
 case 2:
-document.getElementById('tx').value='Вторник'
+document.getElementById('tx7').value='Вторник'
 break;
 case 3:
-document.getElementById('tx').value='Среда'
+document.getElementById('tx7').value='Среда'
 break;
 case 4:
-document.getElementById('tx').value='Четверг'
+document.getElementById('tx7').value='Четверг'
 break;
 case 5:
-document.getElementById('tx').value='Пятница'
+document.getElementById('tx7').value='Пятница'
 break;
 case 6:
-document.getElementById('tx').value='Суббота'
+document.getElementById('tx7').value='Суббота'
 break;
 case 0:
-document.getElementById('tx').value='Воскресенье'
+document.getElementById('tx7').value='Воскресенье'
 break;
 }
 }
