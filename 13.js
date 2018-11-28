@@ -10,29 +10,48 @@ elements.push(element);
 } 
 return elements; } 
 */
-var curPosX = 0;
-var curPosY = 0;
-var interval;
-var n = 10; // На сколько двигать за раз
-var width = document.documentElement.clientWidth; // Ширина экрана
-var height = document.documentElement.clientHeight; // Высота экрана
-var imgWidth = 100; // Ширина картинки
-var imgHeight = 100; // Высота картинки
-var img1 = document.getElementById("img1");
+function leftArrowPressed() {
+            var element = document.getElementById("img1");
+            element.style.left = parseInt(element.style.left) - 5 + 'px';
+            }
 
-function move() {
-  img1.style.left = (curPosX += n) + "px";
-  img1.style.top = (curPosY += n) + "px";
-  if ((curPosX == (width - imgWidth)) || (curPosY == (height - imgHeight))) {
-    clearInterval(interval);
-  }
-}
-interval = setInterval(move, 100);
-#img1 {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100px;
-  height: 100px;
-  background-color: #000000;
-}
+            function rightArrowPressed() {
+            var element = document.getElementById("img1");
+            element.style.left = parseInt(element.style.left) + 5 + 'px';
+
+            }
+
+            function upArrowPressed() {
+            var element = document.getElementById("img1");
+            element.style.top = parseInt(element.style.top) - 5 + 'px';
+            }
+
+            function downArrowPressed() {
+            var element = document.getElementById("img1");
+            element.style.top = parseInt(element.style.top) + 5 + 'px';
+            }
+
+            function moveSelection() {
+                evt = evt || window.event; 
+                switch (evt.keyCode) {
+                    case 37:
+                    leftArrowPressed();
+                    break;
+                    case 39:
+                    rightArrowPressed();
+                    break;
+                    case 38:
+                    upArrowPressed();
+                    break;
+                    case 40:
+                    downArrowPressed();
+                    break;
+                    }
+                };
+
+        function gameLoop()
+        {
+          // change position based on speed
+          moveSelection();
+          setTimeout("gameLoop()",10);
+        }
