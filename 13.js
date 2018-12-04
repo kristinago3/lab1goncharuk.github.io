@@ -25,23 +25,22 @@ return elements; }
 var t;
 var r1= 0;
 var g1= 255;
-var b1= 0;
+var 1b= 0;
 function f()
 	{	
-		var e = document.getElementById('b4');
-		e.style.right=(parseInt(e.style.left)-30)+'px';
+		var e = document.getElementById('1b');
+		e.style.right=(parseInt(e.style.right)-30)+'px';
 		if(parseInt(e.style.right) <=0)
 			{
 				s();
 			} 
 		g1 = g1-6;
-		color ='none';
-		e.style.backgroundColor= color;
+		
 	}
 
 function r()
 	{
-		var x = document.getElementById('b4');
+		var x = document.getElementById('1b');
 		x.style.right = "900px";
 		t = setInterval('f()',100);
 	}
