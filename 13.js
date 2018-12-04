@@ -10,48 +10,43 @@ elements.push(element);
 } 
 return elements; } 
 */
-function leftArrowPressed() {
-            var element = document.getElementById("img1");
-            element.style.left = parseInt(element.style.left) - 5 + 'px';
-            }
+﻿function $() 
+{ var elements = new Array(); 
+for (var i = 0; i < arguments.length; i++) 
+{ var element = arguments[i]; 
+if (typeof element == 'string') 
+element = document.getElementById(element); 
+if (arguments.length == 1) 
+return element; 
+elements.push(element); 
+} 
+return elements; }
 
-            function rightArrowPressed() {
-            var element = document.getElementById("img1");
-            element.style.left = parseInt(element.style.left) + 5 + 'px';
+var t;
+var r1= 0;
+var g1= 255;
+var b1= 0;
+function f()
+	{	
+		var e = document.getElementById('b1');
+		e.style.right=(parseInt(e.style.left)-30)+'px';
+		if(parseInt(e.style.right) <=0)
+			{
+				s();
+			} 
+		g1 = g1-6;
+		color ='rgb('+r1+', '+g1+', '+b1+')';
+		e.style.backgroundColor= color;
+	}
 
-            }
+function r()
+	{
+		var x = document.getElementById('b1');
+		x.style.right = "900px";
+		t = setInterval('f()',100);
+	}
+function s()
+	{
+		clearInterval(t);
+	}
 
-            function upArrowPressed() {
-            var element = document.getElementById("img1");
-            element.style.top = parseInt(element.style.top) - 5 + 'px';
-            }
-
-            function downArrowPressed() {
-            var element = document.getElementById("img1");
-            element.style.top = parseInt(element.style.top) + 5 + 'px';
-            }
-
-            function moveSelection() {
-                evt = evt || window.event; 
-                switch (evt.keyCode) {
-                    case 37:
-                    leftArrowPressed();
-                    break;
-                    case 39:
-                    rightArrowPressed();
-                    break;
-                    case 38:
-                    upArrowPressed();
-                    break;
-                    case 40:
-                    downArrowPressed();
-                    break;
-                    }
-                };
-
-        function gameLoop()
-        {
-          // change position based on speed
-          moveSelection();
-          setTimeout("gameLoop()",10);
-        }
