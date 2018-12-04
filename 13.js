@@ -11,8 +11,6 @@ elements.push(element);
 return elements; } 
 */
 
-
-голос «против»
 var curPosX = 0;
 var curPosY = 0;
 var interval;
