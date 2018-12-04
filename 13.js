@@ -11,31 +11,23 @@ elements.push(element);
 return elements; } 
 */
 
-var t;
-var r1= 0;
-var g1= 255;
-var b4= 0;
-function f()
-	{	
-		var e = document.getElementById('b4');
-		e.style.left=(parseInt(e.style.left)-30)+'px';
-		if(parseInt(e.style.left) <=0)
-			{
-				s();
-			} 
-		g1 = g1-6;
-		color ='rgb('+r1+', '+g1+', '+b1+')';
-		e.style.backgroundColor= color;
-	}
 
-function r()
-	{
-		var x = document.getElementById('b4');
-		x.style.left = "900px";
-		t = setInterval('f()',100);
-	}
-function s()
-	{
-		clearInterval(t);
-	}
+голос «против»
+var curPosX = 0;
+var curPosY = 0;
+var interval;
+var n = 10;
+var width = document.documentElement.clientWidth; 
+var height = document.documentElement.clientHeight; 
+var imgWidth = 50; 
+var imgHeight = 50; 
+var img1 = document.getElementById("m1");
 
+function move() {
+  img1.style.left = (curPosX += n) + "px";
+  img1.style.top = (curPosY += n) + "px";
+  if ((curPosX == (width - imgWidth)) || (curPosY == (height - imgHeight))) {
+    clearInterval(interval);
+  }
+}
+interval = setInterval(move, 100);
