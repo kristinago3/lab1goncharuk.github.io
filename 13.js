@@ -10,7 +10,6 @@ elements.push(element);
 } 
 return elements; } 
 */
-
 var curPosX = 0;
 var curPosY = 0;
 var interval;
@@ -19,11 +18,11 @@ var width = document.documentElement.clientWidth;
 var height = document.documentElement.clientHeight; 
 var imgWidth = 50; 
 var imgHeight = 50; 
-var img1 = document.getElementById("m1");
+var m1 = document.getElementById("m1");
 
 function move() {
-  img1.style.left = (curPosX += n) + "px";
-  img1.style.top = (curPosY += n) + "px";
+  m1.style.left = (curPosX += n) + "px";
+  m1.style.top = (curPosY += n) + "px";
   if ((curPosX == (width - imgWidth)) || (curPosY == (height - imgHeight))) {
     clearInterval(interval);
   }
