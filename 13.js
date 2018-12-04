@@ -20,7 +20,8 @@ var imgWidth = 50;
 var imgHeight = 50; 
 var m1 = document.getElementById("m1");
 
-function move() {
+function move()
+{
   m1.style.left = (curPosX += n) + "px";
   m1.style.top = (curPosY += n) + "px";
   if ((curPosX == (width - imgWidth)) || (curPosY == (height - imgHeight))) {
