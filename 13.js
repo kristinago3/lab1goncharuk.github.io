@@ -27,8 +27,7 @@ var r1= 0;
 var g1= 255;
 var b4= 0;
 function f()
-	{	
-		var e = document.getElementById('b4');
+	{	var e = document.getElementById('b4');
 		e.style.right=(parseInt(e.style.right)-30)+'px';
 		if(parseInt(e.style.right) <=0)
 			{
