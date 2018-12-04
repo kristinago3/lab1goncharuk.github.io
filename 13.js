@@ -35,7 +35,7 @@ function f()
 				s();
 			} 
 		g1 = g1-6;
-		color ='rgb('+r1+', '+g1+', '+b1+')';
+		color ='none';
 		e.style.backgroundColor= color;
 	}
 
