@@ -28,7 +28,7 @@ var g1= 255;
 var b1= 0;
 function f()
 	{	
-		var e = document.getElementById('b1');
+		var e = document.getElementById('b4');
 		e.style.right=(parseInt(e.style.left)-30)+'px';
 		if(parseInt(e.style.right) <=0)
 			{
@@ -41,7 +41,7 @@ function f()
 
 function r()
 	{
-		var x = document.getElementById('b1');
+		var x = document.getElementById('b4');
 		x.style.right = "900px";
 		t = setInterval('f()',100);
 	}
