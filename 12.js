@@ -18,7 +18,7 @@ function f(x)
    for (var i = 0; i < x.length; i++)
    {
       b=x.charAt(i);
-    if(b.indexOff(a)<0)
+    if(a.indexOff(b)<0)
      fff=0
    }
  if(fff)
