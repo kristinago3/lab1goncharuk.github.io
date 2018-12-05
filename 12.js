@@ -19,7 +19,7 @@ function f(x)
    {
       b=x.charAt(i);
     alert(b);
-    if(a.indexOff(b)<0)
+    if(a.indexOf(b)<0)
      fff=0;
    }
  if(fff)
