@@ -19,7 +19,7 @@ function f(x)
    {
       b=x.charAt(i);
     if(a.indexOff(b)<0);
-     fff=0
+     fff=0;
    }
  if(fff)
       { document.getElementById('Result').value='Okay' ;  }
