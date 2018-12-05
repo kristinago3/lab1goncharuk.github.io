@@ -23,9 +23,9 @@ function f(x)
      fff=0;
    }
  if(fff)
-      { document.getElementById('Result').value='Okay' ;  }
+      {return='Okay' ;  }
    else
-      { document.getElementById('Result').value='Fail';   }
+      {return='Fail';   }
  
 
 }
