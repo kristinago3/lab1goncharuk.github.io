@@ -12,7 +12,7 @@ return elements; }
 */
 
 function f(x) 
-{var x=parseFloat(document.getElementById('In').value);
+{var x=document.getElementById('In').value;
  var a = '1234567890';
  fff=1;
    for (var i = 0; i < x.length; i++)
