@@ -23,9 +23,9 @@ function f(x)
      fff=0;
    }
  if(fff)
-      {return='Okay'}
+      {return 'Okay';}
    else
-      {return='Fail'}
+      {return 'Fail';}
  
 
 }
